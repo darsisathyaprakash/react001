@@ -25,7 +25,7 @@ const NizamAI = () => {
 
         try {
             // POST request to local n8n webhook (requires CORS allowed on n8n side or browser extension)
-            const res = await fetch('https://sathya00091.app.n8n.cloud/webhook/nizam-ai', {
+            const res = await fetch('https://sathyaprakash0001.app.n8n.cloud/webhook/nizam', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
